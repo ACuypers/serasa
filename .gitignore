@@ -1,0 +1,16 @@
+# Ignorar vídeos gerados pelos testes
+cypress/videos/
+
+# Ignorar screenshots gerados pelos testes
+cypress/screenshots/
+
+# Ignorar configurações sensíveis do Cypress
+cypress.env.json
+
+# Ignorar dependências instaladas
+node_modules/
+
+# Ignorar arquivos de cache
+.DS_Store
+*.log
+.env

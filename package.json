@@ -1,0 +1,24 @@
+{
+  "name": "serasa-trello",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open:alfa": "cypress open --env ENV=alfa",
+    "cypress:run:alfa": "npx cypress run --env ENV=alfa",
+    "cypress:open:beta": "cypress open --env ENV=beta",
+    "cypress:run:beta": "npx cypress run --env ENV=beta"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cypress/grep": "^4.1.0",
+    "@faker-js/faker": "^8.0.1",
+    "cypress": "^14.2.0"
+  },
+  "dependencies": {
+    "cypress-plugin-api": "^2.11.2"
+  }
+}
+
